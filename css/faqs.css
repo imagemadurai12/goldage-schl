@@ -1,0 +1,780 @@
+.section-one {
+    height: 110vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.section-con {
+    height: 70%;
+    width: 100%;
+    background-color: rgb(255, 247, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.section-con .img-con {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    right: 460px;
+}
+
+.section-con .img-con img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.section-con .section-one-text {
+    height: 30%;
+    width: 70%;
+    /* background-color: blue; */
+    padding-top: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-con .section-one-text .text-con-one {
+    font-size: clamp(1.667rem, 1.25vw + 1.333rem, 2.833rem);
+    color: rgb(51, 43, 0);
+}
+
+.section-con .section-one-text .text-con-two {
+    height: 35%;
+    width: 60%;
+    /* background-color: burlywood; */
+}
+
+.section-con .section-one-text .text-con-two p {
+    color: rgb(101, 61, 33);
+    text-align: center;
+}
+
+.section-con .text-con-three {
+    height: 50%;
+    width: 80%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.section-con .text-con-three .accordian {
+    height: 30%;
+    width: 80%;
+    background-color: #FEF9DF;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px rgba(160, 160, 160, 0.845);
+    border: 2px solid rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-con .text-con-three .accordian .inner {
+    height: 50%;
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-con .text-con-three .accordian .inner h4 {
+    color: rgb(51, 43, 0);
+}
+
+.section-con .text-con-three .accordian .inner i {
+    color: rgb(101, 61, 33);
+    font-size: 25px;
+}
+
+.section-con-one {
+    height: 22%;
+    width: 100%;
+    /* background-color: rgb(193, 168, 29); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-con-one .text-con-four {
+    height: 90%;
+    width: 80%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-con-one .text-con-four .accordian {
+    height: 55%;
+    width: 80%;
+    background-color: #FEF9DF;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px rgba(160, 160, 160, 0.845);
+    border: 2px solid rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-con-one .text-con-four .accordian .inner {
+    height: 50%;
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-con-one .text-con-four .accordian .inner h4 {
+    color: rgb(51, 43, 0);
+}
+
+.section-con-one .text-con-four .accordian .inner i {
+    color: rgb(101, 61, 33);
+    font-size: 25px;
+}
+
+/* section-two */
+
+.section-two {
+    height: 120vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(255, 247, 204, 1) 0%, rgba(255, 255, 255, 1) 65%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.section-two .section-one-text {
+    height: 20%;
+    width: 70%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-two .section-one-text .text-con-one {
+    font-size: clamp(1.667rem, 1.25vw + 1.333rem, 2.833rem);
+    color: rgb(51, 43, 0);
+}
+
+.section-two .section-one-text .text-con-two {
+    height: 35%;
+    width: 60%;
+    /* background-color: burlywood; */
+}
+
+.section-two .section-one-text .text-con-two p {
+    color: rgb(101, 61, 33);
+    text-align: center;
+}
+
+.section-two .main {
+    height: 80%;
+    width: 70%;
+    /* background-color: rgb(0, 255, 136); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two .main .left {
+    height: 90%;
+    width: 40%;
+    /* background-color: rgb(255, 217, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.section-two .main .left .con {
+    height: 30%;
+    width: 43%;
+    background-color: #FEF9DF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px rgb(155, 155, 155);
+}
+
+.section-two .main .left .con .icon {
+    height: 40%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two .main .left .con .icon i {
+    font-size: 34px;
+    color: #653d21;
+}
+
+.section-two .main .left .con .main-text {
+    height: 30%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-two .main .left .con .main-text h3,
+h6 {
+    color: #332b00;
+}
+
+.section-two .main .right {
+    height: 90%;
+    width: 60%;
+    /* background-color: rgb(0, 183, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.section-two .main .right .login-head {
+    height: 20%;
+    width: 100%;
+    /* background-color: rgb(17, 168, 85); */
+}
+
+.section-two .main .right .login-head .text-one {
+    height: 40%;
+    width: 100%;
+    /* background-color: rgb(17, 72, 168); */
+    color: #332b00;
+}
+
+.section-two .main .right .login-head .text-two {
+    height: 60%;
+    width: 95%;
+    /* background-color: rgb(144, 165, 202); */
+    color: #653d21;
+    font-size: 14px;
+}
+
+.section-two .main .right .login-body {
+    height: 80%;
+    width: 90%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+/* Section one */
+@media only screen and (max-width:1266px) {
+    .section-con .img-con {
+        height: 160px;
+        width: 160px;
+        position: absolute;
+        top: 40px;
+        right: 300px;
+    }
+
+}
+
+@media only screen and (max-width:976px) {
+
+    .section-con .img-con {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 40px;
+        right: 250px;
+    }
+
+    .section-con .section-one-text {
+        height: 30%;
+        width: 70%;
+        /* background-color: blue; */
+        padding-top: 90px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section-con .section-one-text .text-con-one {
+        font-size: clamp(1.667rem, 1.25vw + 1.333rem, 2.833rem);
+        color: rgb(51, 43, 0);
+    }
+
+    .section-con .section-one-text .text-con-two {
+        height: 35%;
+        width: 75%;
+        /* background-color: burlywood; */
+    }
+
+    .section-con .section-one-text .text-con-two p {
+        font-size: 16px;
+    }
+
+    .section-con .text-con-three .accordian .inner h4 {
+        font-size: 14px;
+    }
+
+    .section-con .text-con-three .accordian .inner i {
+        font-size: 24px;
+    }
+
+    .section-con-one .text-con-four .accordian .inner h4 {
+        font-size: 14px;
+    }
+
+    .section-con-one .text-con-four .accordian .inner i {
+        font-size: 24px;
+    }
+
+
+}
+
+@media only screen and (max-width:818px) {
+
+    .section-con .img-con {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 40px;
+        right: 160px;
+    }
+
+    .section-con .section-one-text {
+        height: 30%;
+        width: 80%;
+        /* background-color: blue; */
+        padding-top: 90px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section-con .section-one-text .text-con-one {
+        font-size: clamp(1.667rem, 1.25vw + 1.333rem, 2.833rem);
+        color: rgb(51, 43, 0);
+    }
+
+    .section-con .section-one-text .text-con-two {
+        height: 35%;
+        width: 80%;
+        /* background-color: burlywood; */
+    }
+
+    .section-con .section-one-text .text-con-two p {
+        font-size: 15px;
+    }
+
+    .section-con .text-con-three .accordian .inner h4 {
+        font-size: 13px;
+    }
+
+    .section-con .text-con-three .accordian .inner i {
+        font-size: 23px;
+    }
+
+    .section-con-one .text-con-four .accordian .inner h4 {
+        font-size: 13px;
+    }
+
+    .section-con-one .text-con-four .accordian .inner i {
+        font-size: 23px;
+    }
+
+
+}
+
+@media only screen and (max-width:629px) {
+    .section-con .img-con {
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        top: 40px;
+        right: 100px;
+    }
+
+    .section-con-one .text-con-four .accordian .inner {
+        height: 50%;
+        width: 90%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-con .text-con-three .accordian .inner {
+        height: 50%;
+        width: 90%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .section-con .section-one-text .text-con-two p {
+        font-size: 12px;
+    }
+
+    .section-con .text-con-three .accordian .inner h4 {
+        font-size: 12px;
+    }
+
+    .section-con .text-con-three .accordian .inner i {
+        font-size: 22px;
+    }
+
+    .section-con-one .text-con-four .accordian .inner h4 {
+        font-size: 12px;
+    }
+
+    .section-con-one .text-con-four .accordian .inner i {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .section-con .img-con {
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        top: 40px;
+        right: 50px;
+    }
+
+    .section-con .section-one-text {
+        height: 30%;
+        width: 80%;
+        /* background-color: blue; */
+        padding-top: 80px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section-con .section-one-text .text-con-two {
+        height: 35%;
+        width: 100%;
+        /* background-color: burlywood; */
+    }
+
+    .section-con .text-con-three .accordian {
+        height: 30%;
+        width: 90%;
+        background-color: #FEF9DF;
+        border-radius: 5px;
+        box-shadow: 0px 1px 4px rgba(160, 160, 160, 0.845);
+        border: 2px solid rgb(190, 190, 190);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-con-one .text-con-four .accordian {
+        height: 55%;
+        width: 90%;
+        background-color: #FEF9DF;
+        border-radius: 5px;
+        box-shadow: 0px 1px 4px rgba(160, 160, 160, 0.845);
+        border: 2px solid rgb(190, 190, 190);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:393px) {
+    .section-con .img-con {
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        top: 40px;
+        right: 10px;
+    }
+
+}
+
+/* Section two */
+
+@media only screen and (max-width:1220px) {
+
+    .section-two .section-one-text .text-con-two {
+        height: 35%;
+        width: 65%;
+        /* background-color: burlywood; */
+    }
+
+    .section-two .main .left .con .main-text {
+        height: 35%;
+        width: 80%;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width:1170px) {
+    .section-two .section-one-text .text-con-two {
+        height: 35%;
+        width: 75%;
+        /* background-color: burlywood; */
+    }
+
+    .section-two .main .left .con .main-text h6 {
+        display: none;
+    }
+
+    .section-two .main .left .con .main-text {
+        height: 35%;
+        width: 100%;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-two .main .right .login-body .con .con-bar .icon-text {
+        height: 100%;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        color: rgb(132, 130, 130);
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width:831px) {
+    .section-two .section-one-text .text-con-two {
+        height: 35%;
+        width: 90%;
+        /* background-color: burlywood; */
+    }
+
+    .section-two .section-one-text .text-con-two p {
+        font-size: 14px;
+    }
+
+    .section-two .main .left .con .main-text h3 {
+        font-size: 13px;
+    }
+
+    .section-two .main .left .con {
+        height: 23%;
+        width: 45%;
+        background-color: #FEF9DF;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 1px 1px 5px rgb(155, 155, 155);
+    }
+
+    .section-two .main .left .con .icon i {
+        font-size: 30px;
+        color: #653d21;
+    }
+
+    .section-two .main .right .login-head .text-two {
+        height: 60%;
+        width: 100%;
+        /* background-color: rgb(144, 165, 202); */
+        color: #653d21;
+        font-size: 12px;
+    }
+
+    .section-two .main .right .login-body {
+        height: 80%;
+        width: 100%;
+        /* background-color: cadetblue; */
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section-two .main .right .login-body .con .con-bar .icon-text h5 {
+        font-size: 12px;
+    }
+
+
+}
+
+@media only screen and (max-width:723px) {
+    .section-two .section-one-text {
+        height: 20%;
+        width: 80%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section-two .main {
+        height: 80%;
+        width: 80%;
+        /* background-color: rgb(0, 255, 136); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:494px) {
+    .section-two .section-one-text .text-con-two {
+        height: 35%;
+        width: 100%;
+        /* background-color: burlywood; */
+    }
+
+    .section-two .main .left {
+        height: 90%;
+        width: 25%;
+        /* background-color: rgb(255, 217, 0); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .section-two .main .right {
+        height: 90%;
+        width: 80%;
+        /* background-color: rgb(0, 183, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .section-two .main .right .login-body .con .con-bar {
+        height: 45%;
+        width: 100%;
+        /* background-color: rgb(235, 98, 210); */
+        border-radius: 10px;
+        border: 2px solid rgb(169, 167, 167);
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .section-two .main .left .con {
+        height: 15%;
+        width: 100%;
+        background-color: #FEF9DF;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 1px 1px 5px rgb(155, 155, 155);
+    }
+
+    .section-two .main .left .con .icon i {
+        font-size: 20px;
+    }
+
+    .section-two .main .left .con .main-text h3 {
+        font-size: 12px;
+    }
+
+    .section-two .section-one-text .text-con-two p {
+        font-size: 12px;
+    }
+
+    .section-two .main .right .login-body .con-one button {
+        border: none;
+        background-color: #332b00;
+        color: rgb(251, 212, 1);
+        padding: 10px 12px;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .section-two .main .right .login-body .con .con-bar .icon {
+        height: 100%;
+        width: 15%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(132, 130, 130);
+    }
+}
+
+@media only screen and (max-width:495px) {
+    .section-two .section-one-text .text-con-one {
+        font-size:20px;
+    }
+    .section-two .section-one-text .text-con-two {
+        font-size:12px;
+    }
+    .section-two .main .left {
+        display: none;
+    }
+    .section-two .main .right {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .section-two .section-one-text {
+        justify-content: start;
+    }
+    .section-two .main {
+        height: 100%;
+    }
+}
